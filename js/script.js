@@ -1,3 +1,5 @@
+'use strict'
+
 // #1
 
 // console.log(10);
@@ -151,3 +153,126 @@
 
 // #6
 
+// #7
+
+// #8
+
+// let year = 2021;
+// if (year < 2021) {
+// 	console.log('Вы в прошлом');
+// } else if (year > 2021) {
+// 	console.log('Вы в будущем');
+// } else {
+// 	console.log('Вы в настоящем');
+// }
+
+// let all;
+// let age = 18;
+// if (age > 18) {
+// 	all == true;
+// }else {
+// 	all == false;
+// }
+// let age8 = 19;
+// let all = (age8 > 18) ? true : false;
+// console.log(all);
+// let age8 = 19;
+// let all = (age8 > 18);
+// console.log(all);
+
+// let age8 = 101;
+// // let club = (age8 < 18) ? 'Hi baby!':
+// // (age8 == 18) ? 'Go to':
+// // (age8 > 100) ? 'hello' : 'How old are you?';
+// // console.log(club);
+// let club;
+// if (age8 < 18) {
+// 	club = 'Hi baby!';
+// }else if (age8 == 18) {
+// 	club = 'Go to';
+// }else if (age8 > 100) {
+// 	club = 'hello';
+// }else {
+// 	club = 'How old are you?';
+// }
+// console.log(club);
+
+// #9
+
+// let i = 0;
+// while (i < 3) {
+// 	console.log(i);
+// 	i++;
+// }
+// let i = 3;
+// while (i) console.log(i--);
+// let i = 0;
+// do {
+// 	console.log(i);
+// 	i++;
+// }while(i < 3);
+
+// for (let i = 0; i <= 3; i++) {
+// 	console.log(i);
+// }
+
+// let i = 5;
+// for (let i = 0; i <= 3; i++) {
+// 	console.log(i);
+// }
+// console.log(i);
+
+// let i = 0;
+// for (; i < 3; i++) {
+// 	console.log(i);
+// }
+
+//         Бесконечный цикл, лишний раз не включать
+// let i = 0;
+// for (;;) {
+// 	console.log(i++);
+// }
+
+// let i = 0;
+// for (; i < 3;) {
+// 	console.log(i++);
+// }
+
+// let sum = 0;
+// while (true) {
+// 	let value =+ prompt("Введите число","");
+// 	if(!value)break;
+// 	sum += value;
+// }
+// console.log('Сумма: ' +sum);
+
+// for (let i = 0; i < 10; i++) {
+// 	if (i%2 == 0) continue;
+// 	console.log(i);
+// }
+
+// if (i > 5) {
+// 	console.log(i);
+// }else{
+// 	continue;
+// }
+
+// for (let i = 0; i < 3; i++) {
+// 	for (let j = 0; j < 3; j++){
+// 		console.log('Значение на координатах (${i}, ${j})');
+// 	}
+// }
+// console.log('Готово');
+// for (let i = 0; i < 3; i++) {
+// 	for (let j = 0; j < 3; j++){
+// 		let input = prompt (`Значение на координатах (${i}, ${j})`,'');
+// 	}
+// }
+// console.log('Готово');
+// outer:for (let i = 0; i < 3; i++) {
+// 	for (let j = 0; j < 3; j++){
+// 		let input = prompt (`Значение на координатах (${i}, ${j})`,'');
+// 		if (!input) break outer;
+// 	}
+// }
+// console.log('Готово');
