@@ -276,3 +276,173 @@
 // 	}
 // }
 // console.log('Готово');
+
+// #11
+
+// function work(hour, minute) {
+// 	console.log(`я закончил работу в ${hour} : ${minute}`);
+// }
+// work(17,30);
+
+// let a = 2;
+// let b = 3;
+// function work(a, b) {
+// 	a = a + b;
+// 	console.log(a);
+// }
+// work(a,b);
+// console.log(a);
+
+// function sum (a,b){
+// 	return a + b;
+// }
+// const result = sum(4,3);
+// console.log(result);
+
+// function sum (a = 3) {
+// 	console.log(a);
+// }
+// sum();
+
+// function work() {
+// 		console.log('hi');
+// 	}
+// 	work();
+
+// let work = (a)=>console.log(a);
+// work('hi');
+
+// let work = (a,b)=> a + b;
+// console.log(work(2,3));
+
+// let work = (a,b)=> a + b;
+// console.log(work(2,3));
+
+// let work = (a)=> {
+// 	let result = a * a;
+// 	console.log(result);
+// }
+// work(2);
+
+// let work = (a)=> {
+// 	let result = a * a;
+// 	return result;
+// }
+// console.log(work(3));
+
+// #12
+
+// let text = 'ABCD';
+// console.log(text.length);
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.indexOf('Дима'));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.lastIndexOf('Дима'));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.lastIndexOf('вадим')); // не найден рузбтат, показывает -1
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.search('Дима'));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.slice(7,10));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.slice(-12,-10)); // от конца строки с минусом
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.slice(7));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.substr(7,6)); // второй параметр длина
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.substring(7));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.substring(-17,-12)); //минус не работает в этом свойстве
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.replace('Дима','Вадим'));
+
+// let text = 'Всем привет, меня зовут Дима Дима Дима Дима';
+// console.log(text.replace(/Дима/i,'Вадим'));
+
+// let text = 'Всем привет, меня зовут Дима Дима Дима Дима';
+// console.log(text.replace(/Дима/g,'Вадим')); //глобально
+
+// let text = 'Всем привет, меня зовут Дима Дима Дима Дима';
+// console.log(text.toUpperCase());
+
+// let text = 'Всем привет, меня зовут Дима Дима Дима Дима';
+// console.log(text.toLowerCase());
+
+// let txt1 = 'меня зовут';
+// let txt2 = 'Дима';
+// console.log(txt1.concat(' ', txt2));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.charAt(0));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text.charCodeAt(3));
+
+// let text = 'Всем привет, меня зовут Дима';
+// console.log(text[0]);
+
+// let txt = 'a,b,c,d';
+// console.log(txt.split(','));
+
+// let txt = 'hello';
+// console.log(txt.split(''));
+
+// let num = 159;
+// console.log(num.toString());
+
+// let num = 1.23456789;
+// console.log(num.toExponential(4));
+
+// let num = 1.23456789;
+// console.log(num.toFixed(4));
+
+// let num = 1.23456789;
+// console.log(num.toPrecision(4));
+
+// let num = 1.23456789;
+// console.log(num.valueOf());
+
+// console.log(Number(true));
+// console.log(Number(false));
+// console.log(Number('1'));
+// console.log(Number(' 1'));
+// console.log(Number(' 1 '));
+// console.log(Number(' 10 '));
+// console.log(Number('1.23'));
+// console.log(Number(' 1,23 '));
+// console.log(Number('Dima'));
+
+// console.log(parseInt('10.23 dima'));
+// console.log(parseInt('dima 10.23'));
+// console.log(parseInt('10 20 30'));
+
+// console.log(parseFloat('10.23 dima'));
+// console.log(parseFloat('dima 10.23'));
+// console.log(parseFloat('10 20 30'));
+
+// let max = Number.MAX_VALUE;
+// console.log(max);
+// let min = Number.MIN_VALUE;
+// console.log(min);
+
+// let a = 100 / 'dima'; // a будет NaN
+
+// function text(textSplit, separator) {
+// 	let arrayText = textSplit.split(separator);
+// 	console.log(arrayText.join(' / '));
+// }
+// let str = 'я люблю JS';
+// let space = ' ';
+// text(str, space);
