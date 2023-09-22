@@ -135,8 +135,8 @@
 // запишите каждое слово этой строки в отдельный элемент 
 // массива.
 
-let str = 'я люблю JS';
-console.log(str.split(' '));
+// let str = 'я люблю JS';
+// console.log(str.split(' '));
 // let str = 'я люблю JS';
 // let word1 = str.slice(0,1);
 // let word2 = str.slice(2,7);
@@ -151,5 +151,5 @@ console.log(str.split(' '));
 // запишите каждый символ этой строки в отдельный элемент 
 // массива.
 
-let str1 = 'привет мир';
-console.log(str.split(''));
+// let str1 = 'привет мир';
+// console.log(str.split(''));

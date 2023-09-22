@@ -446,3 +446,228 @@
 // let str = 'я люблю JS';
 // let space = ' ';
 // text(str, space);
+
+
+// #14
+
+// function one() {
+// 	setTimeout(function(){
+// 		console.log('one');
+// 	},1000);
+// }
+// function two() {
+// 	console.log('two');
+// }
+// one();
+// two();
+
+// function test(subject, callback) {
+// 		console.log(`Начало написания теста по предмету: ${subject}`);
+// 		callback();
+// 	}
+// test('физика', function() {
+// 	console.log(`Окончание теста`);
+// });
+// function test(subject, callback) {
+// 	console.log(`Начало написания теста по предмету: ${subject}`);
+// 	callback();
+// }
+// function finish(){
+// 	console.log(`Окончание теста`);
+// }
+// test('физика', finish);
+
+// #15
+
+// let user = {
+// 	name: 'Dima',
+// 	age: '36',
+// 	eyescolor: 'grey'
+// };
+// // user.name = 'Ivan'; //меняем имя
+// // console.log(user.name);
+// user.height = 182; //добавили свойство
+// delete user.age; //удаляем свойство
+// console.log(user);
+
+// let taxi = {
+// 	make: 'Web Mottors',
+// 	model: 'Taxi',
+// 	year: 1990,
+// 	color: 'yellow',
+// 	passenger: 4,
+// 	milage: 28000
+// };
+// function prequal (car) {
+// 	if (car.milage > 10000) {
+// 		return false;
+// 	}else if (car.year > 2000) {
+// 		return false;
+// 	}
+// 	return true;
+// }
+// let wortALook = prequal(taxi);
+// if (wortALook) {
+// 	console.log(`Ты должен это всё проверить ${taxi.make} ${taxi.model}`);
+// }else {
+// 	console.log(`Вы действительно должны проверить ${taxi.make} ${taxi.model}`);
+// }
+
+// let taxi = {
+// 	make: 'Web Mottors',
+// 	model: 'Taxi',
+// 	year: 1990,
+// 	color: 'yellow',
+// 	passenger: 4,
+// 	milage: 28000,
+// 	started: false,
+// 	start: function() {
+// 		this.starded = true;
+// 	},
+// 	stop: function() {
+// 		this.started = false;
+// 	},
+// 	drive: function() {
+// 		if(this.started) {
+// 			console.log('Врум .... врум');
+// 		}else {
+// 			console.log('Заведи мотор');
+// 		}
+// 	}
+// };
+// taxi.drive();
+
+
+// #16
+
+// let cars = ['BMW', 'AUDI', 'TOYOTA'];
+// cars [2] = 'Газель';
+// console.log(cars);
+
+// let user = ['Dima', 'Oleg', 'Grisha', 'Evdokia'];
+// console.log(user.length);
+// user.push(180);
+// console.log(user);
+// console.log(user.toString());
+// console.log(user.join(' '));
+// console.log(user.pop());
+// user.shift();
+// console.log(user);
+// user.unshift(180);
+// console.log(user);
+// delete user [0]; // не использовать
+// user.splice(2,0,180,8);
+// console.log(user);
+// let user = ['Dima', 'Oleg', 'Grisha', 'Evdokia'];
+// let user1 = ['Sonay', 'Oleg', 'Grisha', 'Evdokia'];
+// let family = user.concat(user1);
+// console.log(family);
+// let family = user.concat(user1, [180,35]);
+// console.log(family);
+// let user2 = user.slice(1);
+// console.log(user2);
+// let user2 = user.slice(1,2);
+// console.log(user2);
+// let user = ['Dima', 'Oleg', 'Grisha', 'Evdokia', 28, 32];
+// console.log(user.sort());
+// let user = ['Dima', 'Oleg', 'Grisha', 'Evdokia', 28, 32];
+// user.sort();
+// user.reverse();
+// console.log(user);
+// let user = ['Dima', 'Oleg', 'Grisha', 'Evdokia', 28, 32];
+// let number = [55, 2, 44, 103, 99];
+// number.sort(function (a, b) {
+// 	return a - b;
+// });
+// console.log(number);
+// let number = [55, 2, 44, 103, 99];
+// number.sort(function (a, b) {
+// 	return b - a;
+// });
+// console.log(number);
+// let number = [55, 2, 44, 103, 99];
+// number.sort(function (a, b) {
+// 	return 0.5 - Math.random();
+// });
+// console.log(number);
+
+
+// #17
+
+// function change (x) {
+// 	x = 2 * x;
+// 	console.log('x в change:', x);
+// }
+// let y = 2;
+// console.log('y до change:', y);
+// change (y);
+// console.log('y после change:', y);
+
+// function change (user) {
+// 	user.name = 'Anna';
+// }
+// let dima = {
+// 	name: 'Dima'
+// };
+// console.log('до change:', dima.name);
+// change (dima);
+// console.log('после change:', dima.name);
+
+// function change (user) {
+// 	user = {
+// 		name: 'Anna'
+// 	};
+// }
+// let dima = {
+// 	name: 'Dima'
+// };
+// console.log('до change:', dima.name);
+// change (dima);
+// console.log('после change:', dima.name);
+
+// let log = function(a,b,c) {
+// 	console.log(a,b,c);
+// };
+// log(...['spread', 'rest', 'operator']);
+
+// let log = function(a,b,c) {
+// 	console.log(a,b,c);
+// };
+// log.apply(null, ['spread', 'rest', 'operator']);
+
+// let arr = ['will', 'love'];
+// let arr2 = ['you', 'we', ...arr, 'spread', 'operator'];
+// console.log(arr2);
+
+// let birthday = new Date(1987, 3, 19);
+// console.log(birthday);
+// let birthday = [1987, 3, 19];
+// let day =new Date(...birthday);
+// console.log(day);
+// console.log(birthday);
+
+// let log = function(a,b, ...rest) {
+// 	console.log(a,b, rest);
+// };
+// log('one', 'rest', 'spread', 'user');
+
+// let log = function( ...args) {
+// 	console.log(args);
+// };
+// log(1,2,3,4,5);
+
+
+// #18
+
+// class Person {
+// 	constructor (firstName, lastName) {
+// 		this.firstName = firstName;
+// 		this.lastName = lastName;
+// 	}
+// 	getFullName () {
+// 		return this.firstName + ' ' + this.lastName;
+// 	}
+// }
+// let person = new Person('Dima', 'Dmitriy');
+// console.log(person.firstName);
+// console.log(person.getFullName());
