@@ -671,3 +671,44 @@
 // let person = new Person('Dima', 'Dmitriy');
 // console.log(person.firstName);
 // console.log(person.getFullName());
+
+
+// let elem = document.getElementById('test');
+// console.log(elem);
+// elem.innerHTML = '1';
+// elem.outerHTML = '<strong>1</strong>';
+// console.log(elem);
+
+// let elems = document.getElementsByTagName('p');
+// console.log(elems);
+// elems[0].innerHTML = '1';
+// elems[1].innerHTML = '1';
+// elems[2].innerHTML = '1';
+
+// let elems = document.getElementsByTagName('p');
+// for (let i = 0; i < elems.length; i++) {
+// 	elems[i].innerHTML = "1";
+// }
+
+// document.forms[0].innerHTML = '!';
+// document.forms[1].elements[0].value = '#';
+// document.forms.forma1.innerHTML = '!';
+// document.forms['forma2'].innerHTML = '?';
+
+// let elem = document.getElementById('test1');
+// elem.setAttribute('value', '33');
+// console.log(elem.getAttribute('value'));
+
+// let elems = document.getElementsByClassName('a');
+// for (let i = 0; i < elems.length; i++) {
+// 	elems[i].innerHTML = "1";
+// }
+
+// let elem = document.querySelector('input#test3');
+// console.log(elem.getAttribute('value'));
+// console.log(elem);
+
+// let elems = document.querySelectorAll('.a');
+// for (let i = 0; i < elems.length; i++) {
+// 	elems[i].innerHTML = '7';
+// }
