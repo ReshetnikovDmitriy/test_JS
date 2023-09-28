@@ -712,3 +712,48 @@
 // for (let i = 0; i < elems.length; i++) {
 // 	elems[i].innerHTML = '7';
 // }
+
+
+// #23
+
+function sum() {
+	let number1 = +document.querySelector('#number1').value;
+	let number2 = +document.querySelector('#number2').value;
+	let sum = number1 + number2;
+	document.querySelector('#answer').textContent = sum;
+}
+
+// let btn = document.querySelector('#btn');
+// btn.onclick = function() {
+// 	console.log('вы кликнули на кнопку');
+// }
+
+// function changeBgColor() {
+// 	document.body.style.backgroundColor = `rgb(${Math.round(Math.random()*255)},${Math.round(Math.random()*255)},${Math.round(Math.random()*255)})`;
+// }
+// document.onclick = changeBgColor();
+
+// function message() {
+// 	console.log(this.textContent);
+// }
+// let btns = document.querySelectorAll('button');
+// btns.forEach(function(element) {
+// 	element.onclick = message;
+// });
+
+// let element = document.querySelector('#btn');
+// console.log(element.onclick);
+
+// let element = document.querySelector('#btn');
+// 	element.onclick = function () {
+// 		console.log(`id = ${this.id}`);
+// 	}
+// 	element.onclick = function () {
+// 		console.log(`text = ${this.textContent}`);
+// 	}
+
+// function changeBgColor() {
+// 	document.body.style.backgroundColor = '#3f51b5';
+// }
+
+// document.addEventListener('click', changeBgColor, false);

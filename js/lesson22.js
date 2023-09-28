@@ -70,9 +70,9 @@
 
 // #5
 
-function func() {
-	let elems = document.getElementsByClassName('a');
-	for (let i = 0; i < elems.length; i++) {
-		elems[i].innerHTML = i + 0;
-	}
-}
+// function func() {
+// 	let elems = document.getElementsByClassName('a');
+// 	for (let i = 0; i < elems.length; i++) {
+// 		elems[i].innerHTML = i + 0;
+// 	}
+// }
