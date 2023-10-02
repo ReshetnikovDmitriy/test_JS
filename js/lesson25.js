@@ -78,18 +78,18 @@
 //правильное количество, то граница инпута становится зеленой, если 
 //неправильное - красной.
 
-let elems = document.getElementsByTagName('input');
-	for(let i = 0; i < elems.length; i++) {
-		elems [i].addEventListener('blur', func);
-	}
-function func() {
-	let length = this.dataset.length;
-	let data = this.value.length;
+// let elems = document.getElementsByTagName('input');
+// 	for(let i = 0; i < elems.length; i++) {
+// 		elems [i].addEventListener('blur', func);
+// 	}
+// function func() {
+// 	let length = this.dataset.length;
+// 	let data = this.value.length;
 
-	if(length == data) {
-		this.style.borderColor = 'green';
-	} else {
-		this.style.borderColor = 'red';
-	}
-};
+// 	if(length == data) {
+// 		this.style.borderColor = 'green';
+// 	} else {
+// 		this.style.borderColor = 'red';
+// 	}
+// };
 

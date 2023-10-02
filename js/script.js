@@ -716,12 +716,12 @@
 
 // #23
 
-function sum() {
-	let number1 = +document.querySelector('#number1').value;
-	let number2 = +document.querySelector('#number2').value;
-	let sum = number1 + number2;
-	document.querySelector('#answer').textContent = sum;
-}
+// function sum() {
+// 	let number1 = +document.querySelector('#number1').value;
+// 	let number2 = +document.querySelector('#number2').value;
+// 	let sum = number1 + number2;
+// 	document.querySelector('#answer').textContent = sum;
+// }
 
 // let btn = document.querySelector('#btn');
 // btn.onclick = function() {
@@ -757,3 +757,57 @@ function sum() {
 // }
 
 // document.addEventListener('click', changeBgColor, false);
+
+
+//# 29
+
+// let now = new Date().toLocaleDateString();
+// console.log(now);
+// let now1 = new Date().toLocaleTimeString();
+// console.log(now1);
+// let now1 = new Date().toLocaleTimeString().slice(0, -3);
+// console.log(now1);
+// let now = new Date().toLocaleString();
+// console.log(now);
+
+// let days = ['Вc', 'пон', 'вт', 'ср', 'чт', 'пт', 'сб'];
+// let now = new Date();
+// console.log('Сегодня' + ' ' + days[now.getDate()]);
+
+// let date1 = new Date('2015-04-02');
+// console.log(date1);
+// let date2 = new Date('2015-02-02T11:40');
+// console.log(date2);
+// let date3 = new Date('2015-02-02T11:40+03:00');
+// console.log(date3);
+
+
+//# 30
+
+// function myFunc() {
+// 	console.log('after 4 seconds');
+// }
+// window.setTimeout(myFunc,4000);
+// console.log('Hi');
+
+
+// function sayHellow(name) {
+// 	console.log(`привет, ${name}!`);
+// }
+// setTimeout (sayHellow, 3000, 'Dima');
+
+
+// setTimeout (function (name) {
+// 	console.log(`привет, ${name}!`);
+// }, 3000, 'Dima');
+
+// function sayHellow() {
+// 	console.log('hi');
+// }
+// setTimeout (sayHellow(), 3000);
+
+let timeoutid = window.setTimeout(() => {
+	console.log('messedge');
+}, 3000);
+
+clearTimeout(timeoutid);
