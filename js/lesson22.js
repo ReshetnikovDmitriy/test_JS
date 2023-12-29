@@ -40,8 +40,8 @@
 // 	let elem = document.querySelector('p#elem');
 // 		elem.innerHTML = 'ку ку !' + '<b>' + 'а я жирный!' + '</b>';
 
-// 		// elem.innerHTML = 'а я жирный!';
-// 		// elem.outerHTML = 'ку ку !' + '<b>' + elem.innerHTML + '</b>';
+// 		// elem.innerHTML = 'жирный!';
+// 		// elem.outerHTML = 'ку ку ! А я' + '<b>' + elem.innerHTML + '</b>';
 // }
 
 // #2

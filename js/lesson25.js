@@ -14,7 +14,7 @@
 //атрибут title запишется ее текст
 
 // let elems = document.querySelectorAll('a');
-// for( let i = 0; i<elems.length;i++){
+// for( let i = 0; i < elems.length; i++) {
 //     elems[i].addEventListener('mouseover', func);
 // }
 // function func(){
@@ -58,6 +58,7 @@
 // 	}
 // function func() {
 // 	alert(this.value);
+// 	this.removeEventListener('click', func);
 // };
 
 
