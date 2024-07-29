@@ -1,8 +1,11 @@
 'use strict'
-let name = 'Dima';
-alert(name);
-prompt('введите моё имя', 'Дима');
-confirm('Вы уверены в ответе');
+
+
+
+
+
+
+
 // #1
 
 // console.log(10);
