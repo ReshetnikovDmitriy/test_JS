@@ -12,6 +12,13 @@
 // let theArea = calculateArea(radius);
 // console.log('The area is: ' + theArea);
 
+
+
+let text = 'Я-люблю-JS!';
+
+
+
+
 // Дана строка 'abc!def!'. Замените все ! на '@' 
 // с помощью глобального поиска и замены.
 
