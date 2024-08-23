@@ -34,6 +34,11 @@
 // }
 
 
+
+
+
+
+
 // DZ #1
 
 // function buttonClick() {
@@ -76,3 +81,10 @@
 // 		elems[i].innerHTML = i + 0;
 // 	}
 // }
+
+function buttonClick() {
+    let elems = document.getElementsByClassName('a');
+    for(let i = 0; i < elems.length; i++) {
+        elems[i].innerHTML = i;
+    }
+}
