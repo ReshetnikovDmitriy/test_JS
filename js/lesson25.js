@@ -2,6 +2,7 @@
 
 // Даны картинки. Привяжите к каждой картинке событие, чтобы по клику на 
 //картинку console.log выводился ее src.
+
 // let elems = document.getElementsByTagName('img');
 // for(let i = 0; i <elems.length; i++){
 //     elems[i].onclick = func;
@@ -66,10 +67,11 @@
 //квадрат числа, которое он содержит.
 
 // let elems = document.getElementsByTagName('p');
-// 	for(let i = 0; i < elems.length; i++) {
+// 	for (let i = 0; i < elems.length; i++) {
 // 		elems[i].addEventListener('click', func);
 // 	}
 // function func() {
+//  //this.innerHTML = Math.pow(this.innerHTML, 2);
 // 	this.innerHTML = this.innerHTML * this.innerHTML;
 // };
 

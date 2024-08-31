@@ -721,6 +721,14 @@
 
 // #23
 
+
+
+
+
+
+
+
+
 // function sum() {
 // 	let number1 = +document.querySelector('#number1').value;
 // 	let number2 = +document.querySelector('#number2').value;
@@ -762,6 +770,18 @@
 // }
 
 // document.addEventListener('click', changeBgColor, false);
+
+// document.querySelector('.dropdown_trigger').onclick = function () {
+//     this.closest('dropdown').classList.toggle('show');
+// }
+
+//#24
+
+// function func() {
+//     let elem = document.getElementById('elem');
+//     console.log(elem.dataset.price);
+//     console.log(elem.dataset.productNumber);
+// }
 
 
 //# 29
